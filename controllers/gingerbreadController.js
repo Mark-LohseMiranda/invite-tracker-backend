@@ -35,7 +35,7 @@ module.exports = {
 				<p>7509 Canyon Rd E</p>
 				<p>Puyallup WA 98371</p><br>
                 <p>Please follow your personalized link below (please don't share it) to RSVP</p>
-                    <p>http://gingerbread-invite-tracker.s3-website-us-east-1.amazonaws.com?guest=${gingerbread._id}</p> </div>`
+                    <p>https://gingerbread.mark-lohsemiranda.com?guest=${gingerbread._id}</p> </div>`
 			};
 			mailTransporter.sendMail(mailDetails, function (err, data) {
 				if (err) {
