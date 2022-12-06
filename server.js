@@ -17,12 +17,12 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 //LOCAL
-app.use(cors());
+// app.use(cors());
  
 //DEPLOYED
-// app.use(cors({
-//     origin:["https://table-top-fe.herokuapp.com"]
-// }))
+app.use(cors({
+    origin:["https://gingerbread.mark-lohsemiranda.com"]
+}))
 
 app.use("/",routes);
 
